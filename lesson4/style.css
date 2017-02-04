@@ -1,0 +1,39 @@
+body {
+	background-color: white;
+}
+
+#macBar {
+	display: inline-block;
+	position: relative;
+	margin: 30%;
+}
+
+#macBar img {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+}
+
+#two {
+	left: 100px;
+}
+
+#three {
+	left: 200px;
+}
+
+#four {
+	left: 300px;
+}
+
+#five {
+	left: 400px;
+}
+
+#macScreen {
+	width: 450px;
+	height: 250px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
