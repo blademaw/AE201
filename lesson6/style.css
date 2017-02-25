@@ -1,0 +1,62 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#percentage {
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 300px;
+}
+
+#bar {
+	width: 500px;
+	height: 50px;
+	border: 2px dotted black;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+#progress {
+	height: 100%;
+	border-radius: 25px;
+	background-color: grey;
+	width: 10%;
+}
+
+#colours {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+
+#colours button {
+	margin: 10px;
+	width: 10%;
+	height: 50%;
+	font-size: 1.2em;
+}
+
+#start {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 40px;
+	font-size: 1.1em;
+}
+
+#red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+#green {
+	color: green;
+}
+
+/**/

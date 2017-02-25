@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	background-color: aqua;
+	padding: 10px;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+	display: flex;
+	justify-content: space-around;
+	vertical-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+#container div {
+	display: block;
+	border: 1px dotted brown;
+	width: 49%;
+	padding-top: 35%;
+	position: relative;
+	overflow: hidden;
+}
+
+img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#meme h2 {
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 3vw;
+}
+
+#top, h3 {
+	text-align: center;
+	position: absolute;
+	top: 7px;
+	left: 0;
+	right: 0;
+
+}
+
+form {
+	position: absolute;
+	width: 90%;
+	height: 60%;
+	top: 80px;
+	left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+input {
+	height: 35px;
+	font-size: 1.15em;
+	color: grey;
+	border: none;
+	border-bottom: 2px solid red;
+	outline: none;
+}
+
+@media screen and (max-width: 800px) {
+	#container {
+		flex-wrap: wrap;
+	}
+}
+
+#container div {
+	width: 90%;
+	padding-top: 70%;
+}
