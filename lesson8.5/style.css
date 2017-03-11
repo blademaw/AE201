@@ -1,0 +1,117 @@
+body {
+	background-color: white;
+}
+
+.top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.top img {
+	width: 100px;
+	height: 100px;
+}
+
+#splash {
+	width: 100%;
+}
+
+.navigator {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navigator div {
+	padding-left: 10px;
+}
+
+.navigator div a {
+	text-decoration: none;
+}
+
+.pics {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.pics img {
+	padding-left: 5px;
+	width: 350px;
+	height: 350px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.contact textarea {
+	width: 50%;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif
+}
+
+/*#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 150px;
+}
+
+#googleImg {
+	width: 500px;
+}
+
+#textbox {
+	display: flex;
+	height: 40px;
+	width: 500px;
+	border: 1px solid gainsboro;
+	position: relative;
+}
+
+#textbox input {
+	width: 100%;
+	border: 1px gainsboro;
+	font-size: 15px;
+	padding-left: 3%;
+}
+
+#textbox img {
+	height: 20px;
+	width: 15px;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+
+#buttons {
+	margin-top: 30px;
+}
+
+button {
+	padding: 10px;
+	color: grey;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	background-color: gainsboro;
+}*/
